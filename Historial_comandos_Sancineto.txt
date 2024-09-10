@@ -1,0 +1,226 @@
+ls
+ls -l
+cd .
+cd home
+ls -l
+ls
+cd ..
+ls
+cd vagrant/
+ls
+cd ..
+ls
+ls -l
+cd home/
+ls -l
+cl
+clear
+ls -la
+ls -l
+pwd
+cd vagrant/
+pwd
+ls
+env
+echo $HOME
+pwd
+cd
+pwd
+cd ..
+pwd
+echo %COMPUTERNAME%
+cd ..
+ls -l
+cd usr/
+ls -l
+ls -la
+cd home
+cd ..
+cd home/
+ls -l
+cd ubuntu/
+ls
+cd .
+cd..
+cd ..
+ls -l /boot/
+ls -lh /boot/
+ls -l /dev/ |grep video
+ls -l /dev/ |grep sda
+ls -l /dev/
+ls -lh /etc/
+ls -l /usr/
+ls -l /usr/games
+cat /proc/cpuinfo 
+grep flags /proc/cpuinfo  |tail -nl |grep -iE 'smv|vmx'
+grep flags /proc/cpuinfo  |tail -n1 |grep -iE 'smv|vmx'
+grep flags /proc/cpuinfo
+grep flags /proc/cpuinfo  |tail -n1 
+grep flags /proc/cpuinfo  |tail -n1 |grep -iE 'smv|vmx'
+grep flags /proc/cpuinfo  |tail -n1
+grep flags /proc/cpuinfo  |tail -n1 |grep smv
+grep flags /proc/cpuinfo  |tail -n1 |grep bmi1
+echo "hola mundo"
+echo "hola mundo" |wc 
+echo "juan gabriel sancineto" |wc
+help wc
+wc
+poweroff
+sudo poweroff
+grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo | tail -n1
+cd repogit/TP_AySO/
+ll
+grep "model name" /proc/cpuinfo | tail -n1 > datos_usuario.txt 
+cat datos_usuario.txt 
+man cat
+echo "Usuario=$(whoami)" > datos_usuario.txt 
+cat datos_usuario.txt 
+man cat
+cat grep "model name" /proc/cpuinfo | tail -n1 > datos_usuario.txt 
+grep "model name" /proc/cpuinfo | tail -n1 > datos_usuario.txt 
+cat datos_usuario.txt 
+echo "Usuario=$(whoami)" > datos_usuario.txt 
+cat /proc/cpuinfo |grep 'model name' | tail -n1
+cat /proc/cpuinfo |grep 'model name' | tail -n1 > datos_usuario.txt 
+cat datos_usuario.txt 
+echo "Usuario=$(whoami)" > datos_usuario.txt 
+cat datos_usuario.txt 
+cat /proc/cpuinfo |grep 'model name' | tail -n1 > datos_usuario.txt 
+cat datos_usuario.txt 
+echo "Usuario=$(whoami)" > datos_usuario.txt 
+cat datos_usuario.txt 
+cat /proc/cpuinfo |grep 'model name' | tail -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git commit -a -m "agregado de usuario y model name de cpuinfo"
+git add .
+git commit -a -m "agregado de usuario y model name de cpuinfo"
+git push
+u7c
+�7c
+git commit --amend "feat: Añadiendo información de CPU"
+git commit --amend -m "feat: Añadiendo información de CPU"
+git push
+git fetch
+git pull
+git status
+git push
+apropos dir
+id
+pwd
+tree
+ls --help
+ssh-keygen --help
+man ls
+ls
+cat datos_usuario.txt 
+bc <<< 5+2
+man bc
+bc -l
+man bc
+bc -w
+wc -l << EOF
+linea1
+linea2
+eof
+EOF
+
+ls
+man wc
+cd ..
+cat << FIN > archivocat
+linea1
+linea 2
+linea 3
+FIN
+
+cat archivocat 
+rm archivocat 
+ls
+cd TP_AySO/
+cd ..
+cd TP_AySO/
+ls
+cd 
+ls -la
+cat .cache/
+cd .cache/
+ls
+cd ..
+cat .bash_history 
+cd repogit/TP_AySO/
+history -a
+cd repogit/TP_AySO/
+cd
+cat .bash_history 
+cd repogit/TP_AySO/
+ll
+ls -la
+cat /etc/passwd
+man grep
+cat /etc/passwd | grep -i 'nologin'
+man grep
+cat /etc/passwd | grep -v 'nologin'
+
+man sort
+history -a
+cd
+cat .bashrc 
+cd repogit/TP_AySO/
+cat /etc/passwd | grep -v 'nologin'
+cat /etc/passwd | grep -v 'nologin' | sort -k
+sort --help
+man sort
+cat /etc/passwd | grep -v 'nologin' 
+cat /etc/passwd | grep -v 'nologin' | sort -k '/bin/'
+cat /etc/passwd | grep -v 'nologin' | sort -k /bin/
+cat /etc/passwd | grep -v 'nologin' | sort -k 7
+cat /etc/passwd | grep -v 'nologin' | sort -k 7 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+man -k 'dump'
+man tcpdump
+echo "man -k 'dump'" > comando_dump_net
+cat comando_dump_net 
+echo 'tcpdump' >> comando_dump_net 
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+git push
+man -k 'HereDoc'
+echo 'Alumno: Sancineto, J. Gabriel' > readme.md
+cat readme.md 
+cat << EOF
+Alumno: Sancineto, J. Gabriel
+División: 313
+Turno: Noche
+EOF
+
+cat readme.md 
+cat readme.md < EOF
+cat readme.md << EOF
+Alumno: Sancineto, J. Gabriel
+Division: 313
+Turno: Noche
+EOF
+
+cat readme.md 
+readme.md << EOF
+Alumno: Sancineto, J. Gabriel
+Division: 313
+Turno: Noche
+EOF
+
+cat << EOF > readme.md 
+Alumno: Sancineto, J. Gabriel
+Division: 313
+Turno: Noche
+EOF
+
+cat readme.md 
+git add .
+git commit -m "DOCS: datos de alumno"
+git push
+history -a
